@@ -19,9 +19,9 @@ app.use((req,res,next)=>{
     console.log();
     next();
 });
-app.use((req,res,next)=>{
+/*app.use((req,res,next)=>{
     res.render('maintenance.hbs');
-});
+});*/
 app.get('/',(req,res)=>{
 
    // res.send('<h1>hello world </h1>');
